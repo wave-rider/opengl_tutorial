@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{FB1454A9-0BF6-8449-BE16-EA5A9B8BF297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\PT.vert">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\textureGamma.frag">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\textureNoGamma.frag">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gamma Checkers.cpp" />
+  </ItemGroup>
+</Project>

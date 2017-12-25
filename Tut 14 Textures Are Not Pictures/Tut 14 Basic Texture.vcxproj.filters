@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{57C96AFF-B0A1-C54D-B2FD-8CF6540921B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\PN.vert">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\ShaderGaussian.frag">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\TextureGaussian.frag">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic Texture.cpp" />
+  </ItemGroup>
+</Project>
