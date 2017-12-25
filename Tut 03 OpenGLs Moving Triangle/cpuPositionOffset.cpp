@@ -58,7 +58,7 @@ void init()
 
 void ComputePositionOffsets(float &fXOffset, float &fYOffset)
 {
-	const float fLoopDuration = 25.0f;
+	const float fLoopDuration = 5.0f;
 	const float fScale = 3.14159f * 2.0f / fLoopDuration;
 
 	float fElapsedTime = glutGet(GLUT_ELAPSED_TIME) / 1000.0f;
@@ -72,7 +72,7 @@ void ComputePositionOffsets(float &fXOffset, float &fYOffset)
 void AdjustVertexData(float fXOffset, float fYOffset)
 {
 	std::vector<float> fNewData(ARRAY_COUNT(vertexPositions));
-	//memcpy(&fNewData[0], vertexPositions, sizeof(vertexPositions));
+	memcpy(&fNewData[0], vertexPositions, sizeof(vertexPositions));
 
 	for(int iVertex = 0; iVertex < ARRAY_COUNT(vertexPositions); iVertex += 4)
 	{
