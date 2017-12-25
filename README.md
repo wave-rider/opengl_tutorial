@@ -1,7 +1,7 @@
 # opengl_tutorial
 Copyright Jason McKesson
 
-This has been built from the source code found here for VS2017
+This has been built from the source code found here
 
 https://bitbucket.org/alfonse/gltut/downloads/
 
