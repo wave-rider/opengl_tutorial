@@ -319,3 +319,5 @@ ASALocalRun/
 
 *.idb
 *.lib
+
+*.exe
