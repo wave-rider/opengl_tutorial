@@ -51,7 +51,7 @@
     <IntDir>obj\Release\Tut 02 Fragment Position\</IntDir>
     <TargetName>Tut 02 Fragment Position</TargetName>
     <TargetExt>.exe</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

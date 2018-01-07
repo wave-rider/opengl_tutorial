@@ -51,7 +51,7 @@
     <IntDir>obj\Release\Tut 13 Geometry Impostor\</IntDir>
     <TargetName>Tut 13 Geometry Impostor</TargetName>
     <TargetExt>.exe</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -74,7 +74,7 @@
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalDependencies>glloadD.lib;glimgD.lib;glutilD.lib;glmeshD.lib;freeglutD.lib;glu32.lib;opengl32.lib;gdi32.lib;winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)Tut 13 Geometry ImpostorD.exe</OutputFile>
       <AdditionalLibraryDirectories>..\glsdk\glload\lib;..\glsdk\glimg\lib;..\glsdk\glutil\lib;..\glsdk\glmesh\lib;..\glsdk\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

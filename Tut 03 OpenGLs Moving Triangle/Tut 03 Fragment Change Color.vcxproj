@@ -51,7 +51,7 @@
     <IntDir>obj\Release\Tut 03 Fragment Change Color\</IntDir>
     <TargetName>Tut 03 Fragment Change Color</TargetName>
     <TargetExt>.exe</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

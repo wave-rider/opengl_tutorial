@@ -44,14 +44,14 @@
     <IntDir>obj\Debug\Tut 03 CPU Position Offset\</IntDir>
     <TargetName>Tut 03 CPU Position OffsetD</TargetName>
     <TargetExt>.exe</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\</OutDir>
     <IntDir>obj\Release\Tut 03 CPU Position Offset\</IntDir>
     <TargetName>Tut 03 CPU Position Offset</TargetName>
     <TargetExt>.exe</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

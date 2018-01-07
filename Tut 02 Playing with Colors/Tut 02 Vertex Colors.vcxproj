@@ -51,7 +51,7 @@
     <IntDir>obj\Release\Tut 02 Vertex Colors\</IntDir>
     <TargetName>Tut 02 Vertex Colors</TargetName>
     <TargetExt>.exe</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
